@@ -1,5 +1,5 @@
 var ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
-var io = require('socket.io').listen(process.env.OPENSHIFT_NODEJS_PORT || 3001,ip_address);
+var io = require('socket.io').listen(process.env.OPENSHIFT_NODEJS_PORT || 3001);
 var moment = require('moment');
 
 
