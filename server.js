@@ -8,7 +8,7 @@ var urlstates = 'mongodb://abhi:Techm123@ds147167.mlab.com:47167/heatmap';
 var collectionNameAirports = "wizardspoc";
 var collectionNamestates = "states";
 
-io.set('origins', 'http://heatmap-trial-trial.44fs.preview.openshiftapps.com');
+io.set('origins', 'http://heatmap-trial-trial.44fs.preview.openshiftapps.com/');
 io.sockets.on('connection', function (socket) {
     socket.on('message', function () {
 
